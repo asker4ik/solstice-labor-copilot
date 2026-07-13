@@ -30,6 +30,8 @@ measures value instead of asserting it.
 
 ## Run locally
 
+Requires Python 3.10+ (3.12 recommended).
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
@@ -46,3 +48,16 @@ python run.py
 The **Ask the Copilot** chat tab needs an Anthropic API key in
 `.streamlit/secrets.toml` (`ANTHROPIC_API_KEY = "..."`) or the environment;
 without one, every other feature still works.
+
+If `models/model.pkl` complains about a scikit-learn version mismatch,
+`python run.py` retrains everything from scratch in about a minute.
+
+## Where AI helped (and where the human overrode it)
+
+This was built AI-assisted end to end — data generator, adapter, forecast,
+labor math, app. [NOTES_AI_LOG.md](NOTES_AI_LOG.md) is the running log kept
+during the build: the judgment calls AI made, the two forecast-calibration
+iterations (including the first run that honestly failed its own quality
+gate), and the places the human overrode the AI — real employment
+constraints on shifts, the 27% plan floor, keeping API keys away from the
+UI, and keeping the LLM out of the numbers entirely.
