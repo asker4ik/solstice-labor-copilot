@@ -52,6 +52,11 @@ without one, every other feature still works.
 If `models/model.pkl` complains about a scikit-learn version mismatch,
 `python run.py` retrains everything from scratch in about a minute.
 
+The zip distribution omits the raw Toast-shaped extract
+(`data/toast_extract/`, ~370MB of per-store NDJSON — browsable in the GitHub
+repo) because the app runs entirely from `data/processed/`; `python run.py`
+regenerates the full extract if you want it locally.
+
 ## Where AI helped (and where the human overrode it)
 
 This was built AI-assisted end to end — data generator, adapter, forecast,
