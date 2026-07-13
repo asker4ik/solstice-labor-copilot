@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn==1.9.0  # pinned: must match the version models/model.pkl was trained with
+streamlit>=1.32
+plotly>=5.20
+matplotlib>=3.8
+pyarrow>=17          # parquet IO for the precomputed artifacts
+anthropic>=0.60      # optional: powers the Ask-the-Copilot chat tab only

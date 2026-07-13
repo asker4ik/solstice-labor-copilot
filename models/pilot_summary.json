@@ -1,0 +1,13 @@
+{
+  "eval_days": 20,
+  "treatment_stores": 8,
+  "control_stores": 7,
+  "treatment_pct_before": 0.399784582943324,
+  "treatment_pct_after": 0.34849664929719587,
+  "control_pct": 0.39233044983619825,
+  "treatment_delta_pts": 0.05128793364612809,
+  "control_delta_pts": 0.0,
+  "measured_savings_annualized": 612864.246378418,
+  "measured_capture_rate": 0.5595475929525544,
+  "rollforward_all_slow_annual": 1093990.1865970993
+}

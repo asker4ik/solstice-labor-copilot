@@ -1,0 +1,25 @@
+{
+  "source": "toast_api",
+  "synthetic": true,
+  "generator": "src/generate_data.py",
+  "seed": 42,
+  "dateRange": {
+    "start": "2026-02-02",
+    "end": "2026-05-02"
+  },
+  "endpoints": {
+    "orders": "/orders/v2/ordersBulk (impersonated)",
+    "labor": "/labor/v1/timeEntries (impersonated)",
+    "restaurants": "/restaurants/v1/restaurants (impersonated)",
+    "menus": "/menus/v2/menus (impersonated)",
+    "employees": "/labor/v1/employees (impersonated)"
+  },
+  "counts": {
+    "restaurants": 60,
+    "orders": 279640,
+    "lineItems": 447680,
+    "timeEntries": 29248,
+    "employees": 540
+  },
+  "notes": "All values synthetic. _synthetic:{} blocks are generator metadata, not Toast fields. 15 locations flagged sourceSystem=square would need a square_adapter in production."
+}

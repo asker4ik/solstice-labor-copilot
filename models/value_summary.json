@@ -1,0 +1,27 @@
+{
+  "revenue_scale_factor": 16.775798964001748,
+  "service_standard_min_per_prep_min": 3.953940568425014,
+  "eval_days": 20,
+  "fleet_actual_labor_pct": 0.31921206075184744,
+  "fleet_feasible_labor_pct": 0.29620972926205014,
+  "theoretical_gap_to_28_annual": 5489688.5052586375,
+  "feasible_savings_annual": 3416101.1896826313,
+  "by_tier": {
+    "core": {
+      "actual_pct": 0.3121500887375576,
+      "feasible_pct": 0.29520689173943043,
+      "savings_ann": 1474325.588661883
+    },
+    "flagship": {
+      "actual_pct": 0.29133810668958965,
+      "feasible_pct": 0.29167782785342866,
+      "savings_ann": -13357.796702327381
+    },
+    "slow": {
+      "actual_pct": 0.3963471967190934,
+      "feasible_pct": 0.3081804873115153,
+      "savings_ann": 1955133.39772308
+    }
+  },
+  "labor_hours_per_store_day_real": 127.96100640478434
+}

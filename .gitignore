@@ -1,0 +1,21 @@
+# secrets — never commit
+.streamlit/secrets.toml
+.env
+
+# NOTE: data/ and models/ ARE committed on purpose — Streamlit Cloud boots
+# from the precomputed artifacts (regenerate anytime with: python run.py)
+
+# case prep docs — local only, not part of the deliverable repo
+CONTEXT.md
+BUILD_PLAN.md
+BUILD_LOG.md
+
+# environment
+.venv/
+.venv-mac/
+__pycache__/
+*.pyc
+.DS_Store
+
+# tooling
+.claude/
